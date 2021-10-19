@@ -18,7 +18,9 @@ require('partials/header_blue.html');
 
 <section class="main-services grid-section container-main">
   <div>
-    <h2 class="title">PROYECTOS</h2>
+    <h2 data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="title">PROYECTOS</h2>
 
   </div>
   <div class="grid-proyecto">

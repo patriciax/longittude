@@ -18,8 +18,12 @@ require('partials/header_blue.html');
 
 <section class="main-services grid-section container-main">
   <div>
-    <h2 class="title">SUITE MAGIC BOX</h2>
-    <p class="parraf">Visita virtual 360
+    <h2 data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1500"  class="title">SUITE MAGIC BOX</h2>
+    <p data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="2500" class="parraf">Visita virtual 360
       º en la que in
       -
       cluimos microvideos donde expli
@@ -52,7 +56,9 @@ require('partials/header_blue.html');
       casa.</p>
   </div>
   <div class="grid grid-main grid-details">
-      <div class="item">
+      <div class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
         <img src="assets/img/test1.png" alt="">
       </div>
   

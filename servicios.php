@@ -18,8 +18,12 @@ require('partials/header_blue.html');
 
 <section class="main-services grid-section container-main">
   <div>
-    <h2 class="title">SERVICIOS</h2>
-    <p class="parraf">Somos un estudio de diseño
+    <h2 data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="title">SERVICIOS</h2>
+    <p data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="2500" class="parraf">Somos un estudio de diseño
       con arquitectos especializados
       en visualización urbanística,
       pasajística y arquitectónica.
@@ -35,7 +39,9 @@ require('partials/header_blue.html');
       animaciones y realidad virtual.</p>
   </div>
   <div class="grid grid-main">
-    <a href="servico-detalle.php" class="item">
+    <a href="servico-detalle.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
 
         <img src="assets/img/test1.png" alt="">
@@ -43,31 +49,41 @@ require('partials/header_blue.html');
 
       </div>
     </a>
-    <a href="render360.php" class="item">
+    <a href="render360.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2200">
       <div>
         <img src="assets/img/tes2.jpg" alt="">
         <p> RENDER 360°</p>
       </div>
     </a>
-    <a href="recorrio.php" class="item">
+    <a href="recorrio.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
         <img src="assets/img/test3.png" alt="">
         <p> RECORRIDO INTERACTIVO 360° </p>
       </div>
     </a>
-    <a href="servico-detalle.php" class="item">
+    <a href="servico-detalle.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
         <img src="assets/img/test3.png" alt="">
         <p> VIDEO INTERACTIVO 360° </p>
       </div>
     </a>
-    <a href="servico-detalle.php" class="item">
+    <a href="servico-detalle.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
         <img src="assets/img/test3.png" alt="">
         <p>FOTOGRAFÍA 8K 360°</p>
       </div>
     </a>
-    <a href="servico-detalle.php" class="item">
+    <a href="servico-detalle.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
 
         <img src="assets/img/test3.png" alt="">
@@ -75,7 +91,9 @@ require('partials/header_blue.html');
 
       </div>
     </a>
-    <a href="servico-detalle.php" class="item">
+    <a href="servico-detalle.php" class="item" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2100">
       <div>
 
         <img src="assets/img/test3.png" alt="">

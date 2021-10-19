@@ -18,7 +18,9 @@ require('partials/header_blue.html');
 
 <section class="main-services grid-section container-main ">
   <div>
-    <h2 class="title">RENDER 360°</h2>
+    <h2 data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="title">RENDER 360°</h2>
     <p class="parraf">Técnica de visualización de
       un espacio arquitectónico o
       urbanístico que permite al
