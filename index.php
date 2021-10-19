@@ -19,12 +19,13 @@ require('partials/header.html');
             Your browser does not support HTML5 video.
         </video>
         <div class="btn play-btn btn-base fa play active" id="play-pause-button">
-            <button id="playv">
+            <button data-aos="zoom-out"   data-aos-easing="linear"
+              data-aos-duration="2000" id="playv">
                 <div class="video-overlay-play"></div>
             </button>
         </div>
 
-        <p>SOMOS ARQUITECTOS PLASMANDO LA
+        <p data-aos="fade-up" data-aos-duration="2000">SOMOS ARQUITECTOS PLASMANDO LA
             REALIDAD FUTURA CON OPCIONES VISUALES
             QUE EXPRESAN COMPOSICIÓN,
             AMBIENTE Y CONTENIDO.</p>
